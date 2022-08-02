@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="models.css">
+    
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"><body>
+
+    
+
+    
+    <div class="top-nav">
+
+        <div class="exit">
+            <a href="/" ><ion-icon name="exit-outline" class="exit"></ion-icon></a>
+        </div>
+
+        <div class="container">
+
+        <div class="default">
+               
+            <h3>Κατασκευαστής μητρικής πλακέτας: </h3>
+            <h3>Μοντέλο μητρικής πλακέτας: </h3>
+            <h3>Μνήμη RAM: </h3>
+            <h3>Λειτουργικό Σύστημα: </h3>
+            <h3>Κάρτα Γραφικών:  </h3>
+            <h3>Κατασκευαστής Επεξεργαστή: </h3>
+            <h3>Μοντέλο Επεξεργαστή: </h3>
+        </div>       
+        <div class="results">
+            <h3> <%=manufacturer%></h3>
+            <h3><%=devmodel%></h3>
+            <h3><%=tm%> GB</h3>
+            <h3><%=distro%> </h3>
+            <h3><%=grafika%> </h3>
+            <h3><%=cpuman%></h3>
+            <h3><%=cpubr%> </h3>
+        </div>  
+        </div>    
+    </div>
+
+    <div class="recs">
+        <h1>3D Hardware Models </h1>
+        <p>Προτάσεις υλικού Η/Υ τελευταίας τεχνολογίας σε 3D αναπαράσταση μοντέλου ξεκινώντας απο επεξεργαστή μέχρι και κουτί.</p>
+    </div>
+
+    
+
+
+    <div class="btns">
+
+        
+            
+        <button data-modal-target="#modal" class="btn"><img class="smallimgs" src="https://cdn1.iconfinder.com/data/icons/computer-hardware-531/64/Processor-chip-cpu-memory-ram-512.png"></button>
+        <button data-modal-target="#gpu" class="btn"><img class="smallimgs" src="https://image.flaticon.com/icons/png/512/1470/1470120.png"></button>
+        <button data-modal-target="#ram" class="btn"><img class="smallimgs" src="https://iconarchive.com/download/i96846/iconsmind/outline/Ram.ico"></button>
+        <button data-modal-target="#mobo" class="btn"><img class="smallimgs" src="https://www.flaticon.com/premium-icon/icons/svg/2310/2310600.svg"></button>
+        <button data-modal-target="#case" class="btn"><img class="smallimgs" src="https://static.thenounproject.com/png/3360658-200.png"></button>
+        
+    </div>
+
+    
+
+    <div class="modal" id="modal">
+
+        <div class="modal-header">
+            <div class="modal-title">
+                Επεξεργαστές
+            </div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        
+        <div class="modal-body">
+
+            <div class="total">
+
+
+            <div class="frames">
+            
+                <iframe  src="models/i7.html"  frameBorder="0" scrolling="no">
+                </iframe> 
+            
+           
+                <iframe  src="models/i9.html"  frameBorder="0" scrolling="no">
+                </iframe> 
+            
+            
+                <iframe  src="models/ryzen.html"  frameBorder="0" scrolling="no">
+                </iframe> 
+
+            </div>
+
+                <div class="clicks">
+                    <a href="https://www.google.com/search?q=i7" class="cpu-btn" target="_blank" rel="noopener noreferrer">i7 Details</a></button>
+                    <a href="https://www.google.com/search?q=i9" class="cpu-btn" id="i9" target="_blank" rel="noopener noreferrer">i9 Details</a></button>
+                    <a href="https://www.google.com/search?q=ryzen" class="cpu-btn" id="ryzen" target="_blank" rel="noopener noreferrer">Ryzen Details</a></button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="modal" id="gpu">
+
+        <div class="modal-header">
+            <div class="modal-title">
+                Κάρτες Γραφικών
+            </div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        
+        <div class="modal-body">
+
+            <div class="total">
+
+
+            <div class="frames">
+            
+                <iframe  src="models/gpu2.html"  frameBorder="0" scrolling="no">
+                </iframe> 
+            
+           
+                <iframe  src="models/gpu3.html"  frameBorder="0" scrolling="no">
+                </iframe> 
+            
+            
+                <iframe  src="models/gpu1.html"  frameBorder="0" scrolling="no">
+                </iframe> 
+
+            </div>
+
+            <div class="clicks">
+                <a href="https://www.google.com/search?q=rtx 2080 TI" class="gpu-btn" target="_blank" rel="noopener noreferrer">RTX 2080TI Details</a></button>
+                <a href="https://www.google.com/search?q=rtx 3070" class="gpu-btn" target="_blank" rel="noopener noreferrer">RTX 3070 Details</a></button>
+                <a href="https://www.nvidia.com/en-us/deep-learning-ai/products/titan-rtx/" class="gpu-btn" target="_blank" rel="noopener noreferrer">TITAN Details</a></button>
+            </div>
+
+            </div>
+
+                
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="modal" id="ram">
+
+        <div class="modal-header">
+            <div class="modal-title">
+                Μνήμη RAM
+            </div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+
+        <div class="total">
+        
+        <div class="modal-body">
+            
+                <iframe  src="models/tridentz.html"  frameBorder="0" scrolling="no" id="ram1">
+                </iframe> 
+            
+           
+                <iframe  src="models/tridentneo.html"  frameBorder="0" scrolling="no" id="ram1">
+                </iframe> 
+            
+            
+                <iframe  src="models/ddr3.html"  frameBorder="0" scrolling="no" id="ddr">
+                </iframe> 
+         
+        </div>
+
+        <div class="clicks">
+            <a href="https://www.google.com/search?q=trident Z" class="ram-btn" target="_blank" rel="noopener noreferrer">Trident Z Details</a></button>
+            <a href="https://www.google.com/search?q=trident Z NEO" class="ram-btn" target="_blank" rel="noopener noreferrer">Trident Z Neo Details</a></button>
+            <a href="https://www.google.com/search?q=ddr3 4gb" class="ram-btn" target="_blank" rel="noopener noreferrer">DDR3 4GB Details</a></button>
+        </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal" id="mobo">
+
+        <div class="modal-header">
+            <div class="modal-title">
+                Μητρικές Κάρτες
+            </div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+
+        <div class="total">
+        
+        <div class="modal-body">
+
+
+            <iframe src="models/triplemobo.html" frameBorder="0" scrolling="no" id="triple"></iframe>
+
+        </div>
+
+            <div class="clicks">
+                <a href="https://www.google.com/search?q=ASUS Rog Strix b550" class="ram-btn" target="_blank" rel="noopener noreferrer">ASUS Rog Strix b550 Details</a></button>
+                <a href="https://pcper.com/2014/02/asus-maximus-vi-formula-motherboard-review/" class="ram-btn" target="_blank" rel="noopener noreferrer">ASUS Maximus Vi Formula Details</a></button>
+                <a href="https://www.nzxt.com/products/n7-b550-matte-white" class="ram-btn" target="_blank" rel="noopener noreferrer">NZXT N7 b550 Details</a></button>
+            </div>
+        </div>
+        
+    </div>
+
+    
+        
+    <div class="modal" id="case">
+
+        <div class="modal-header">
+            <div class="modal-title">
+                Κουτιά
+            </div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+
+        <div class="total">
+        
+        <div class="modal-body">
+
+
+            <iframe src="models/case1.html" frameBorder="0" scrolling="no" id="custom"></iframe> 
+            <iframe src="models/case3.html" frameBorder="0" scrolling="no" id="tt"></iframe>
+            <iframe src="models/corsair.html" frameBorder="0" scrolling="no" id="cors"></iframe>
+
+        </div>
+
+            <div class="clicks">
+                <a href="https://www.google.com/search?q=custom pc case" class="ram-btn" target="_blank" rel="noopener noreferrer">Custom PC Case Details</a></button>
+                <a href="https://www.google.com/search?q=thermaltake black pc case" class="ram-btn" target="_blank" rel="noopener noreferrer">Thermaltake Case Details</a></button>
+                <a href="https://www.google.com/search?q=corsair cabinet Air 540" class="ram-btn" target="_blank" rel="noopener noreferrer">Corsair Air 540 case Details</a></button>
+            </div>
+        </div>
+    </div>
+        
+
+    <div id="overlay">
+
+    </div>
+
+    <div class="footer">
+        <div class="rights"><p>© 2021 Dantools Development Team All Rights Reserved </p></div>
+      </div>
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+
+    <script src="modals.js"></script>
+
+</body>
+</html>

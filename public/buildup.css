@@ -1,0 +1,156 @@
+.social-icon{
+    color:#d00000;
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     margin:10px;
+     cursor: pointer;
+     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+     font-size: 2rem;
+     
+   }
+   .social-icon:hover{
+     color:black;
+   }
+
+   .form-container{
+    position:relative;
+    left:20%;
+    width:60%;
+    height:75vh;
+    background-color:white;
+  }
+  
+  .contact-form{
+    font-family: "Rubik";
+    position:absolute;
+    top:10%;
+    left:10%;
+    width:80%;
+    height:400px;
+  }
+  
+  input,
+  textarea{
+    width:100%;
+    margin-top:2rem;
+    border: none;
+    border-bottom:1px solid black;
+  }
+  
+  .submit{
+    margin-top:20px;
+    border:1px solid black;
+    padding:1rem;
+    text-align:center;
+    background-color: #ffffff;
+    cursor:pointer;
+  }
+  
+  .submit:hover{
+    opacity:0.6;
+  }
+
+  .footer{
+    background-color: #333533;
+    color:white;
+    height: 100px;
+  }
+  
+  .rights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    
+  }
+  
+  #epikoinwnia:hover{
+    cursor: pointer;
+  }
+
+  /**********************************************************************************************/
+
+ .row{
+     margin-top:100px;
+ }
+
+ #titlos{
+     margin-top:150px;
+     color:black;
+ }
+
+ .down-sec{
+     margin-left:13px;
+ }
+
+ #synopsi{
+     font-weight: bold;
+ }
+
+ #cpu{
+     font-weight: bold;
+     font-size: x-large;
+     margin-bottom: 50px;
+ }
+
+ .down-sec{
+     margin-top:50px;
+ }
+
+ #mobo{
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 50px;
+ }
+
+ #ram{
+    font-weight: bold;
+    font-size: x-large;
+ }
+
+ #ram-cont{
+     margin-top:20px;
+ }
+
+ #gpu{
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 30px;
+ }
+
+ #hd{
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 30px;
+ }
+
+ #hd-cont{
+    margin-top:150px;
+}
+
+#cooler{
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom:20px;
+ }
+
+ #case{
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom:20px;
+ }
+
+ #case-img{
+    width:500px;
+    height:400px;
+}
+
+#case-cont{
+    margin-bottom:70px;
+}
+
+#logo{
+  width:90px;
+  height:43px;
+}
